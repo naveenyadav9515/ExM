@@ -1,0 +1,32 @@
+{
+  "groups": [
+    {
+      "id": 1,
+      "name": "Trip to Paris",
+      "members": [1, 2, 3],
+      "balances": {
+        "1": { "2": 0, "3": 0 },
+        "2": { "1": 0, "3": 0 },
+        "3": { "1": 0, "2": 0 }
+      },
+      "defaultCurrency": "EUR"
+    },
+    {
+      "id": 2,
+      "name": "Personal Expenses",
+      "members": [1],
+      "balances": {},
+      "defaultCurrency": "USD"
+    },
+    {
+      "id": 3,
+      "name": "Household",
+      "members": [2, 3],
+      "balances": {
+        "2": { "3": 0 },
+        "3": { "2": 0 }
+      },
+      "defaultCurrency": "EUR"
+    }
+  ]
+}

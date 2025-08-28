@@ -1,0 +1,10 @@
+{
+  "categories": [
+    { "id": 1, "name": "Food & Drink", "icon": "restaurant" },
+    { "id": 2, "name": "Shopping", "icon": "shopping_cart" },
+    { "id": 3, "name": "Travel", "icon": "flight" },
+    { "id": 4, "name": "Utilities", "icon": "lightbulb" },
+    { "id": 5, "name": "Software", "icon": "code" },
+    { "id": 6, "name": "Entertainment", "icon": "theaters" }
+  ]
+}

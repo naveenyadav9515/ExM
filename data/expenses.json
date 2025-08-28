@@ -1,0 +1,67 @@
+{
+  "expenses": [
+    {
+      "id": 1,
+      "groupId": 1,
+      "description": "Hotel stay",
+      "amount": 300,
+      "currency": "EUR",
+      "date": "2025-08-25",
+      "categoryId": 3,
+      "payerId": 1,
+      "splitType": "equal",
+      "shares": {
+        "1": 100,
+        "2": 100,
+        "3": 100
+      },
+      "tags": ["travel", "accommodation"]
+    },
+    {
+      "id": 2,
+      "groupId": 1,
+      "description": "Dinner at local bistro",
+      "amount": 90,
+      "currency": "EUR",
+      "date": "2025-08-26",
+      "categoryId": 1,
+      "payerId": 2,
+      "splitType": "custom",
+      "shares": {
+        "1": 30,
+        "2": 30,
+        "3": 30
+      },
+      "tags": ["food"]
+    },
+    {
+      "id": 3,
+      "groupId": 2,
+      "description": "Monthly software subscription",
+      "amount": 25,
+      "currency": "USD",
+      "date": "2025-08-27",
+      "categoryId": 5,
+      "payerId": 1,
+      "splitType": "equal",
+      "shares": {
+        "1": 25
+      }
+    },
+    {
+      "id": 4,
+      "groupId": 3,
+      "description": "Utilities bill",
+      "amount": 120,
+      "currency": "EUR",
+      "date": "2025-08-28",
+      "categoryId": 4,
+      "payerId": 3,
+      "splitType": "equal",
+      "shares": {
+        "2": 60,
+        "3": 60
+      }
+    }
+  ]
+}

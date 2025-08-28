@@ -7,7 +7,13 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "serve:ssr:Exm": "node dist/Exm/server/server.mjs"
+    "serve:ssr:Exm": "node dist/Exm/server/server.mjs",
+    "json-server": "npm-run-all --parallel start:users start:groups start:categories start:expenses start:settings",
+    "start:users": "json-server --watch ./data/users.json --port 3001",
+    "start:groups": "json-server --watch ./data/groups.json --port 3002",
+    "start:categories": "json-server --watch ./data/categories.json --port 3003",
+    "start:expenses": "json-server --watch ./data/expenses.json --port 3004",
+    "start:settings": "json-server --watch ./data/settings.json --port 3005"
   },
   "prettier": {
     "overrides": [
@@ -46,6 +52,7 @@
     "karma-coverage": "~2.2.0",
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.1.0",
+    "npm-run-all": "^4.1.5",
     "typescript": "~5.8.2"
   }
 }

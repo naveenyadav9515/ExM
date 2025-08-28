@@ -1,0 +1,28 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Alex Johnson",
+      "email": "alex@exm.com",
+      "role": "admin",
+      "currency": "USD",
+      "groups": [1, 2]
+    },
+    {
+      "id": 2,
+      "name": "Jane Doe",
+      "email": "jane@exm.com",
+      "role": "member",
+      "currency": "USD",
+      "groups": [1, 3]
+    },
+    {
+      "id": 3,
+      "name": "Chris Lee",
+      "email": "chris@exm.com",
+      "role": "member",
+      "currency": "EUR",
+      "groups": [1, 3]
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "settings": {
+    "currency_rates": {
+      "USD": 1,
+      "EUR": 1.08,
+      "INR": 0.012
+    }
+  }
+}
